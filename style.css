@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins&display=swap");
+
 html {
   box-sizing: border-box;
 }
@@ -8,6 +10,7 @@ body {
   overflow-y: hidden;
   display: flex;
   align-items: center;
+  font-family: Dancing Script, sans-serif;
 }
 
 /* Video Background */
@@ -37,8 +40,8 @@ video {
 
 /* Container */
 .container {
-  min-width: 580px;
-  min-height: 304px;
+  min-width: 400px;
+  min-height: 310px;
   color: black;
   margin: 0 auto;
   padding: 25px 50px;
@@ -46,6 +49,7 @@ video {
   z-index: 2;
   display: flex;
   justify-content: center;
+  background: rgba(255, 255, 255, 0.55);
 }
 
 .input-container {
@@ -78,6 +82,7 @@ input {
   border-radius: 20px;
   background: #fff;
   outline: none;
+  font-family: Dancing Script, sans-serif;
 }
 
 /* Button */
@@ -88,8 +93,8 @@ button {
   margin-top: 15px;
   border: none;
   text-transform: uppercase;
-  background: #006959;
-  color: white;
+  background: #2c1506;
+  color: rgb(228, 222, 220);
   cursor: pointer;
   outline: none;
 }
@@ -131,6 +136,8 @@ li span {
   }
 
   .container {
+    min-width: unset;
+    width: 95vw;
     min-height: 245px;
     padding: 20px;
     margin: 10px;
