@@ -129,6 +129,29 @@ li span {
   top: 60px;
 }
 
+.complete-title {
+  animation: complete 4s infinite;
+  -webkit-animation: complete 4s infinite;
+}
+
+@keyframes complete {
+  0% {
+    color: rgb(206, 12, 12);
+  }
+  25% {
+    color: rgb(218, 204, 17);
+  }
+  50% {
+    color: rgb(9, 167, 9);
+  }
+  75% {
+    color: rgb(6, 14, 128);
+  }
+  100% {
+    color: rgb(73, 4, 87);
+  }
+}
+
 /* Media Query: Large Smartphone (Vertical) */
 @media screen and (max-width: 600px) {
   .video-background {
