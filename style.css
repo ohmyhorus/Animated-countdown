@@ -143,6 +143,11 @@ li span {
   }
   50% {
     color: rgb(9, 167, 9);
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
   }
   75% {
     color: rgb(6, 14, 128);
